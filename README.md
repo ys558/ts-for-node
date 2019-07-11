@@ -2,6 +2,7 @@
 安装
 
   npm i -g typescript
+  
 编译
 
   tsc app.ts
