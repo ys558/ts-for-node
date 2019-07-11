@@ -24,3 +24,7 @@ tsc --niit<br>
 ./src/
 
 npm i express<br>
+
+在现有项目安装ts
+
+npm i -D typescript<br>
