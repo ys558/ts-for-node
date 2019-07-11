@@ -7,14 +7,20 @@
 
   tsc app.ts
 
-初始化：<br>
+初始化：
+
 tsc --niit<br>
-后生成tsconfig.json文件，<br>
-解开<br>
+
+后生成tsconfig.json文件，
+
+解开
+
 "outDir": "./dist", <br>
 "rootDir": "./src", <br>
 "moduleResolution": "node",  <br>
 
-生成
+创建src文件夹
+
+./src/
 
 npm i express<br>
