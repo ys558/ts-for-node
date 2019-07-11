@@ -12,3 +12,7 @@ tsc --niit<br>
 "outDir": "./dist", <br>
 "rootDir": "./src", <br>
 "moduleResolution": "node",  <br>
+
+生成
+
+npm i express<br>
