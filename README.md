@@ -3,6 +3,7 @@
   npm i -g typescript<br>
 
 编译
+
   tsc app.ts
 
 初始化：<br>
