@@ -1,7 +1,7 @@
 # ts-for-node
-安装<br>
-  npm i -g typescript<br>
+安装
 
+  npm i -g typescript
 编译
 
   tsc app.ts
