@@ -9,7 +9,7 @@
 
 初始化：
 
-tsc --niit<br>
+tsc --init<br>
 
 后生成tsconfig.json文件，
 
@@ -22,6 +22,8 @@ tsc --niit<br>
 创建src文件夹
 
 ./src/
+
+直接运行tsc，则自动编译成/dist/app.js文件
 
 npm i express<br>
 
