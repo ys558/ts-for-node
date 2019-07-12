@@ -1,11 +1,11 @@
 # ts-for-node
 安装
 
-  npm i -g typescript
-  
-编译
+    npm i -g typescript
 
-  tsc app.ts
+编译
+    
+    tsc app.ts
 
 初始化：
 
