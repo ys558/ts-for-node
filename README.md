@@ -11,9 +11,9 @@
 
 tsc --init<br>
 
-后生成tsconfig.json文件，
+生成了tsconfig.json文件，
 
-解开
+解开以下配置：
 
 "outDir": "./dist", <br>
 "rootDir": "./src", <br>
