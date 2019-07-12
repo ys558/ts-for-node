@@ -9,29 +9,28 @@
 
 初始化：
 
-tsc --init<br>
+    tsc --init
 
 生成了tsconfig.json文件，
 
 解开以下配置：
 
-"outDir": "./dist", <br>
-"rootDir": "./src", <br>
-"moduleResolution": "node",  <br>
+    "outDir": "./dist", <br>
+    "rootDir": "./src", <br>
+    "moduleResolution": "node",  <br>
 
 创建src文件夹
 
-./src/
+    ./src/
 
 直接运行tsc，则自动编译成/dist/app.js文件
 
-npm init -y
-
-npm i express<br>
+    npm init -y
+    npm i express
 
 在现有项目安装ts
 
-npm i -D typescript ts-node nodemon @types/node @types/express<br>
+    npm i -D typescript ts-node nodemon @types/node @types/express<br>
 
 package.json中的script 添加以下命令：
 
@@ -41,6 +40,10 @@ package.json中的script 添加以下命令：
     "build": "tsc -p ."
      },
  
- 开发时，npm run dev
+ 开发时，
+        
+    npm run dev
  
- 开发后，npm run build
+ 开发后，
+    
+    npm run build
