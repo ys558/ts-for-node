@@ -35,12 +35,8 @@ npm i -D typescript ts-node nodemon @types/node @types/express<br>
 
 package.json中的script 添加start命令：
 
-  "scripts": {
-  
+    "scripts": {
     "start": "node dist/app.js",
-  
     "dev": "nodemon src/app.ts",
-    
     "build": "tsc -p ."
-    
-  },
+     },
