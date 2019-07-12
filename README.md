@@ -25,8 +25,16 @@ tsc --init<br>
 
 直接运行tsc，则自动编译成/dist/app.js文件
 
+npm init -y
+
 npm i express<br>
 
 在现有项目安装ts
 
-npm i -D typescript<br>
+npm i -D typescript ts-node nodemon @types/node @types/express<br>
+
+package.json中的script 添加start命令：
+
+  "scripts": {
+    "start": "node dist/app.js"
+  },
