@@ -40,4 +40,7 @@ package.json中的script 添加以下命令：
     "dev": "nodemon src/app.ts",
     "build": "tsc -p ."
      },
-  每次编写完ts文件后，都应运行tsc编译成start
+ 
+ 开发时，npm run dev
+ 
+ 开发后，npm run build
